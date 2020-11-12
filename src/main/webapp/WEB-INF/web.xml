@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>controlview</servlet-name>
+  	<display-name>controlview</display-name>
+  	<description></description>
+  	<servlet-class>bt5.controlview</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>bt5</servlet-name>
+  	<display-name>bt5</display-name>
+  	<description></description>
+  	<servlet-class>net.hai.bt5.bt5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>controlview</servlet-name>
+  	<url-pattern>/controlview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>bt5</servlet-name>
+  	<url-pattern>/bt5</url-pattern>
+  </servlet-mapping>
+</web-app>
